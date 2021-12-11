@@ -18,18 +18,10 @@ function setup() {
   stroke(random(255),random(255),random(255),random(255));
   noFill();
 
-  div1 = createDiv(' HELLO.. NotMeStudio ');
+  div1 = createDiv(' Hello..');
   div1.style('padding', '5px');
   div1.style('font-size','20px');
   div1.style('color','#ff0000');
-  let button1 = createButton('Collections');
-  let button2 = createButton('News');
-  let button3 = createButton('Live');
-  let button4 = createButton('About');
-  button1.position(230,5);
-  button2.position(320,5);
-  button3.position(375,5);
-  button4.position(419,5);
   div1color = (10);
   div1.style('background-color', div1color);
   div1.position(0,0);
