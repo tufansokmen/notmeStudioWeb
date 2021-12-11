@@ -37,7 +37,7 @@ function setup() {
 function draw() {
 
   desingLine();
-  mainWindow();
+  //mainWindow();
 
   }
 
